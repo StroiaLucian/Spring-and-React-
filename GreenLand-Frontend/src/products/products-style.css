@@ -1,0 +1,299 @@
+*{
+    left:0;
+    padding-left:0;
+    margin-left: 0;
+}
+.content{
+    width: 100%;
+    height: 250vh;
+    background-color:white;
+}
+.tabelProduse{
+    width: 100%;
+    display: inline-block;
+    height: 168vh;
+    background-color:white;
+}
+.tabelProduse table{
+    margin-left:2vw;
+    margin-top:2vw;
+    width: 96%;
+    height: 142vh;
+
+}
+.coloanaFiltru{
+    padding-left:2px;
+    width: 18vw;
+    background-image: -webkit-repeating-radial-gradient(white,lightgray);
+    background-color:white;
+    border:solid 1px gray;
+}
+.coloaneProduse{
+    width:78vw;
+    margin-left:2vw;
+    background-image: -webkit-repeating-radial-gradient(white,lightgray);
+    border:solid 1px gray;
+    overflow-y: scroll;
+
+}
+.coloanaGoala{
+    width: 2vw;
+    background-color:white
+}
+.prezentare{
+    width: 100%;
+    height: 50vh;
+}
+.filtruPropriuZis{
+    height: 100%;
+}
+.filtruPropriuZis h1{
+    font-family: 'Kanit', sans-serif;
+    padding-top:3vw;
+    font-size: 1.5vw;
+    padding-left: 7vw;
+}
+.Price{
+    padding-top: 2vw;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1vw;
+    padding-left: 1.7vw;
+}
+#firstPrice{
+    margin-left:.5vw;
+    height: 1.5vw;
+    width: 2.3vw;
+}
+.countries{
+    margin-top:2vw;
+}
+.lista{
+    list-style-type: none;
+
+}
+.lista li{
+    padding-top:1vw;
+}
+.subl{
+    text-decoration: underline;
+    color:black;
+}
+.Search{
+    margin-top:2vw;
+    margin-left:2.5vw;
+    background: -webkit-repeating-radial-gradient(purple,black);
+    -webkit-background-clip: text;
+    font-family: 'Kanit', sans-serif;
+    -webkit-text-fill-color: transparent;
+    border:outset 3px purple;
+    text-align: center;
+    width: 10vw;
+}
+.col-sm-4{
+    width: 10vw;
+    margin-left:0vw;
+    margin-right: 0vw;
+    padding-left: 0vw;
+}
+.card-img-top {
+    font-family: 'Kanit', sans-serif;
+    font-size:1.2vw;
+    width: 10vw;
+}
+.card-body{
+    margin-left:0vw;
+}
+.card{
+    font-family: 'Kanit', sans-serif;
+    font-size:1.2vw;
+    width: 20vw;
+    height:33vw;
+    margin-top:2vw;
+    margin-left:2vw;
+    background-color:pink;
+}
+.card-title{
+    margin-top:1.5vw;
+    font-family: 'Kanit', sans-serif;
+    font-size:1.2vw;
+    text-align: center;
+
+}
+.card-price{
+    text-align: center;
+}
+
+.buton{
+    margin-left:5vw;
+    background: -webkit-repeating-radial-gradient(purple,black);
+    -webkit-background-clip: text;
+    font-family: 'Kanit', sans-serif;
+    font-size:1.2vw;
+    -webkit-text-fill-color: transparent;
+    border:outset 3px purple;
+    text-align: center;
+    width: 7vw;
+
+}
+.elemente{
+    margin-left:0vw;
+}
+.titluu{
+    margin-left:31vw;
+    font-family: 'Kanit', sans-serif;
+    font-size:3vw;
+}
+
+.backImage2{
+    margin-top:5vw;
+    color:white;
+    width: 8vw;
+    height: 89.8vh;
+    margin-left:0vw;
+    background-color: rgba(0,0,0,.4);
+    border: none;
+    outline: none;
+
+}
+.nextImage2{
+    margin-top:5vw;
+    color:white;
+    width: 8vw;
+    height: 89.8vh;
+    background-color: rgba(0,0,0,.4);
+    margin-left: 82.7vw;
+    border: none;
+    outline: none;
+}
+
+.backImage2:hover{
+    background-color:rgba(190, 144, 212,.5);
+    color:black;
+    border: none;
+    outline: none;
+}
+.nextImage2:hover{
+    background-color:rgba(190, 144, 212,.5);
+    color:black;
+    border: none;
+    outline: none;
+}
+.nextImage2:focus{
+    border: none;
+    outline: none;
+}
+.backImage2:focus{
+    border: none;
+    outline: none;
+}
+.backImage2:hover > .fa-angle-left2{
+    color:black;
+}
+.nextImage2:hover  > .fa-angle-right2{
+
+    color:black;
+
+}
+.fa-angle-left2{
+    font-size: 4vw;
+}
+
+.fa-angle-right2{
+    font-size: 4vw;
+}
+
+.Luci{
+    margin-top:0vw;
+    background-color:white;
+    display:flex;
+    width: 11vw;
+    font-family: "Playball", cursive;
+    font-size: 1.6vw;
+    border: none;
+    outline: none;
+
+}
+.Luci:hover > .coss{
+    border-bottom: outset .25vw lime;
+}
+.Luci img{
+    width: 2vw;
+    position: inherit;
+    margin-left: 0vw;
+    margin-right: .5vw;
+    height: 2vw;
+}
+.number{
+    margin-top:.5vw;
+    margin-left:-.5vw;
+    width: 1.5vw;
+    background-image:radial-gradient(lime,white);
+    border-radius: 2vw;
+    height: 1.5vw;
+    color:black;
+}
+.numar{
+    padding-top: .1vw;
+    font-size: 1vw;
+    text-align: center;
+}
+.coss{
+    margin-left:.5vw;
+}
+.tabelCumparaturi{
+    margin-top:5vw;
+    height: 80vh;
+}
+.content Modal{
+    margin-top:5vw;
+}
+.card2{
+    width: 10vw;
+}
+.Informatii{
+    display:flex;
+}
+.cantitateXpret{
+    width: 20vw;
+    height: 10vw;
+    padding-top: 3vw;
+    text-align: center;
+    margin-left:1vw;
+    background-image: -webkit-repeating-radial-gradient(white,lightgray);
+}
+.totalPrice{
+    width: 19vw;
+    height: 10vw;
+    margin-left:1vw;
+    padding-top: 3vw;
+    text-align: center;
+    background-image: -webkit-repeating-radial-gradient(white,lightgray);
+}
+.imaginePreview{
+    width: 12vw;
+    height: 10vw;
+    background-image: -webkit-repeating-radial-gradient(white,lightgray);
+}
+.card-img-top2{
+    padding: 1vw;
+    width: 10vw;
+    height: 10vw;
+}
+.totalPrice2{
+    width: 19vw;
+    height: 10vw;
+    margin-left:1vw;
+    padding-top: 3vw;
+    text-align: center;
+    background-image: -webkit-repeating-radial-gradient(white,lightgray);
+}
+.Informatii button{
+    width: 33vw;
+    height: 10vw;
+    background: -webkit-repeating-radial-gradient(purple,black);
+    -webkit-background-clip: text;
+    font-family: 'Kanit', sans-serif;
+    -webkit-text-fill-color: transparent;
+    border:outset 3px purple;
+    text-align: center;
+}

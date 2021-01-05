@@ -1,0 +1,35 @@
+.special{
+    padding-top:10vw;
+    padding-left:43vw;
+    font-family: 'Kanit', sans-serif;
+    font-size:4vw;
+}
+.euDiv{
+    margin-top:5vw;
+    margin-left:17.5vw;
+    display: flex;
+    width: 66.7vw;
+    height: 50vw;
+}
+.infoMe{
+    margin-left:3vw;
+    font-family: 'Kanit', sans-serif;
+    font-size:1.8vw;
+    width: 40vw;
+}
+.euaz{
+    width: 20vw;
+    margin-right: .5vw;
+    margin-left: 1vw;
+}
+.eu{
+    width: 20vw;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.eu:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
